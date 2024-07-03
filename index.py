@@ -40,3 +40,11 @@ id = 8
 # print('my name is '+firstName+' '+lastName+' i am a '+occupation+'. my id is '+str(id))
 
 print(f"my name is {firstName} {lastName} i am a {occupation}. my id is {id} ")
+
+# number types
+
+number= 23+2j
+print(type(number))
+
+var=True
+print(type(var))
