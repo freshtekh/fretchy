@@ -118,17 +118,22 @@
 
 # print (f'{val1}  {bin(val1)}')
 
-# print (f'{val2} {bin(val2)}')
+# # print (f'{val2} {bin(val2)}')
+
+
 code = (input('input code: '))
-if code := "*312#":
-    print('''1.Data Plans
+if code == "*312#":
+    print('''
+          1.Data Plans
           2.Get 112.5GB + 40 mins for N16000
           3.Social Bundles
           4.Business plans
           5.Roaming/intl
           6.Borrow Credit/Recharge
           0.Next''')
-
+else:
+     print('invalid code.pls try again')
+     
 menu = int(input('select option: '))
 
 if menu == 1:
@@ -161,16 +166,16 @@ if menu == 1:
         data = int(input('choose subscription: '))
         if data == 1:
             print('''
-You will be charged N50 for the purchase of 40MB
+                  You will be charged N50 for the purchase of 40MB
                   daily plan. To proceed, select:
                   1.Auto renew
                   2.One-off
                   3.Buy for a friend
                   4.Redeem Promo code
                   0.Back''')
-        if data == 2:
+        elif data == 2:
                 print('''
-You will be charged N100 for the purchase of 40MB
+                  You will be charged N100 for the purchase of 40MB
                   daily plan. To proceed, select:
                   1.Auto renew
                   2.One-off
@@ -180,3 +185,4 @@ You will be charged N100 for the purchase of 40MB
         else:
                 print("you have entered an incorrect value")
     
+
