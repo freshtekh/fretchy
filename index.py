@@ -121,68 +121,69 @@
 # # print (f'{val2} {bin(val2)}')
 
 
-code = (input('input code: '))
-if code == "*312#":
-    print('''
-          1.Data Plans
-          2.Get 112.5GB + 40 mins for N16000
-          3.Social Bundles
-          4.Business plans
-          5.Roaming/intl
-          6.Borrow Credit/Recharge
-          0.Next''')
-else:
-     print('invalid code.pls try again')
+# code = (input('input code: '))
+# if code == "*312#":
+#     print('''
+#           1.Data Plans
+#           2.Get 112.5GB + 40 mins for N16000
+#           3.Social Bundles
+#           4.Business plans
+#           5.Roaming/intl
+#           6.Borrow Credit/Recharge
+#           0.Next''')
+# else:
+#      print('invalid code.pls try again')
      
-menu = int(input('select option: '))
+# menu = int(input('select option: '))
 
-if menu == 1:
-    print(''' 
-          Buy data plans
-          1.Daily
-          2.Weekly
-          3.Monthly
-          4.2-3Month
-          5.Always ON
-          6.Broadband
-          7.Family Packs
-          8.Hot Deals
-          9.Free Youtube
-          10.Manage Data
-          0.Back''')
-    option = int(input('choose bundle: '))
-    if option == 1:
-        print('''
-              1.N50 for 50MB
-              2.N100 for 100MB
-              3.N100 for 350MB (IG/TT/YT)
-              4.N200 for 200MB
-              5.N350 for 1GB
-              6.N800 for 3GB
-              7.N500 for 2GB
-              8.N600 for 2.5GB
-              99.Next
-              0.Back''')
-        data = int(input('choose subscription: '))
-        if data == 1:
-            print('''
-                  You will be charged N50 for the purchase of 40MB
-                  daily plan. To proceed, select:
-                  1.Auto renew
-                  2.One-off
-                  3.Buy for a friend
-                  4.Redeem Promo code
-                  0.Back''')
-        elif data == 2:
-                print('''
-                  You will be charged N100 for the purchase of 40MB
-                  daily plan. To proceed, select:
-                  1.Auto renew
-                  2.One-off
-                  3.Buy for a friend
-                  4.Redeem Promo code
-                  0.Back''')
-        else:
-                print("you have entered an incorrect value")
+# if menu == 1:
+#     print(''' 
+#           Buy data plans
+#           1.Daily
+#           2.Weekly
+#           3.Monthly
+#           4.2-3Month
+#           5.Always ON
+#           6.Broadband
+#           7.Family Packs
+#           8.Hot Deals
+#           9.Free Youtube
+#           10.Manage Data
+#           0.Back''')
+#     option = int(input('choose bundle: '))
+#     if option == 1:
+#         print('''
+#               1.N50 for 50MB
+#               2.N100 for 100MB
+#               3.N100 for 350MB (IG/TT/YT)
+#               4.N200 for 200MB
+#               5.N350 for 1GB
+#               6.N800 for 3GB
+#               7.N500 for 2GB
+#               8.N600 for 2.5GB
+#               99.Next
+#               0.Back''')
+#         data = int(input('choose subscription: '))
+#         if data == 1:
+#             print('''
+#                   You will be charged N50 for the purchase of 40MB
+#                   daily plan. To proceed, select:
+#                   1.Auto renew
+#                   2.One-off
+#                   3.Buy for a friend
+#                   4.Redeem Promo code
+#                   0.Back''')
+#         elif data == 2:
+#                 print('''
+#                   You will be charged N100 for the purchase of 40MB
+#                   daily plan. To proceed, select:
+#                   1.Auto renew
+#                   2.One-off
+#                   3.Buy for a friend
+#                   4.Redeem Promo code
+#                   0.Back''')
+#         else:
+#                 print("you have entered an incorrect value")
     
+
 
