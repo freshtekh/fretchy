@@ -1,0 +1,37 @@
+students = []
+questions = [
+    'What is the capital of Abuja? a) Abuja b) Cairo',
+    'What is Osun State capital? a) Ikeja b) Osogbo',
+    'What is the capital of Ekiti State? a) Akure b) Ado-Ekiti'
+]
+answers = ['a', 'b', 'b']
+
+# Collect student names
+examiner = int(input('How many students are taking this test: '))
+for i in range(examiner):
+    name = input(f'Enter student {i+1} name: ')
+    students.append(name)
+
+# Initialize a dictionary to store scores
+scores = {}
+
+# Ask questions and evaluate answers
+for student in students:
+    print(f'\n{student}, welcome to the test\n')
+    score = 0
+    x=0
+    for  que, ans in(zip(questions, answers)):
+        x+=1
+        print(f'{x}. {que}')
+        user_ans = input('Enter your answer: ')
+        if user_ans.lower() == ans:
+            print("Correct!")
+            score += 1
+        else:
+            print('Wrong.')
+    scores[student] = score
+
+# Display scores
+print("\nScoresheet:")
+for student, score in scores.items():
+    print(f"{student}: {score} points")
