@@ -257,11 +257,25 @@ setB= {2,1,3,6,10}
 import random as rd
 # num = rd.randint(8130000000, 8139999999)
 # print(num)
-# cars = ['Benz', 'Toyota', 'Audi', 'Tesla', 'BYD',"Lexus"]
-# my_choice= rd.choice(cars)
-# print(my_choice)
+while True:
+    cars = ['Benz', 'Toyota', 'Audi', 'Tesla', 'BYD',"Lexus"]
+    my_choice= rd.choice(cars)
+    myGuess=input('')
 
-x=10
-while x>=0:
-    print(f'welcome {x}')
-    x-=1
+    print(my_choice)
+
+    if myGuess==my_choice:
+        print('bingo')
+
+# x=10
+# while x>=0:
+#     print(f'welcome {x}')
+#     x-=1
+
+# read up on while loop
+
+# guess app using while loop
+# create a dummy balance
+# have a stake account
+# as long as balance is greater than stake keep staking
+
